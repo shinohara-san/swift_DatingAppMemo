@@ -3,19 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		70FB5BE1F74AEB1F107B6F37 /* Pods_MatchingAppMemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E6BE707F3A40664695569DD /* Pods_MatchingAppMemo.framework */; };
+		957EA70A24C93C440095B91E /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 957EA70924C93C440095B91E /* Realm.framework */; };
+		957EA70C24C93C480095B91E /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 957EA70B24C93C480095B91E /* RealmSwift.framework */; };
 		95CFF24224C7ED53000D33D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CFF24124C7ED53000D33D4 /* AppDelegate.swift */; };
 		95CFF24424C7ED53000D33D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CFF24324C7ED53000D33D4 /* SceneDelegate.swift */; };
 		95CFF24624C7ED53000D33D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CFF24524C7ED53000D33D4 /* ViewController.swift */; };
 		95CFF24924C7ED53000D33D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95CFF24724C7ED53000D33D4 /* Main.storyboard */; };
 		95CFF24B24C7ED58000D33D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95CFF24A24C7ED58000D33D4 /* Assets.xcassets */; };
 		95CFF24E24C7ED58000D33D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95CFF24C24C7ED58000D33D4 /* LaunchScreen.storyboard */; };
+		95CFF25824C7F08D000D33D4 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CFF25724C7F08D000D33D4 /* AddViewController.swift */; };
+		95CFF25A24C7F0F8000D33D4 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CFF25924C7F0F8000D33D4 /* DetailViewController.swift */; };
+		95CFF25F24C7F52F000D33D4 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CFF25E24C7F52F000D33D4 /* Person.swift */; };
+		95CFF26124C7F614000D33D4 /* PersonDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CFF26024C7F614000D33D4 /* PersonDataSource.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		957EA70624C93C100095B91E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		5E6BE707F3A40664695569DD /* Pods_MatchingAppMemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MatchingAppMemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FECAE82DB5AE0D1E9748145 /* Pods-MatchingAppMemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MatchingAppMemo.release.xcconfig"; path = "Target Support Files/Pods-MatchingAppMemo/Pods-MatchingAppMemo.release.xcconfig"; sourceTree = "<group>"; };
+		957EA70924C93C440095B91E /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		957EA70B24C93C480095B91E /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		95CFF23E24C7ED53000D33D4 /* MatchingAppMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MatchingAppMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95CFF24124C7ED53000D33D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95CFF24324C7ED53000D33D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +48,11 @@
 		95CFF24A24C7ED58000D33D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95CFF24D24C7ED58000D33D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95CFF24F24C7ED58000D33D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95CFF25724C7F08D000D33D4 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		95CFF25924C7F0F8000D33D4 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		95CFF25E24C7F52F000D33D4 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		95CFF26024C7F614000D33D4 /* PersonDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDataSource.swift; sourceTree = "<group>"; };
+		E9BD4E453CD17049FB78DD29 /* Pods-MatchingAppMemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MatchingAppMemo.debug.xcconfig"; path = "Target Support Files/Pods-MatchingAppMemo/Pods-MatchingAppMemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +60,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				957EA70C24C93C480095B91E /* RealmSwift.framework in Frameworks */,
+				957EA70A24C93C440095B91E /* Realm.framework in Frameworks */,
+				70FB5BE1F74AEB1F107B6F37 /* Pods_MatchingAppMemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2BC191F6FDEFCF3B328B70DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				957EA70B24C93C480095B91E /* RealmSwift.framework */,
+				957EA70924C93C440095B91E /* Realm.framework */,
+				5E6BE707F3A40664695569DD /* Pods_MatchingAppMemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94959D4783657D127D1523B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E9BD4E453CD17049FB78DD29 /* Pods-MatchingAppMemo.debug.xcconfig */,
+				5FECAE82DB5AE0D1E9748145 /* Pods-MatchingAppMemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		95CFF23524C7ED53000D33D4 = {
 			isa = PBXGroup;
 			children = (
 				95CFF24024C7ED53000D33D4 /* MatchingAppMemo */,
 				95CFF23F24C7ED53000D33D4 /* Products */,
+				94959D4783657D127D1523B5 /* Pods */,
+				2BC191F6FDEFCF3B328B70DD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +109,43 @@
 		95CFF24024C7ED53000D33D4 /* MatchingAppMemo */ = {
 			isa = PBXGroup;
 			children = (
+				95CFF25D24C7F12B000D33D4 /* Controller */,
+				95CFF25C24C7F11F000D33D4 /* Model */,
+				95CFF25B24C7F118000D33D4 /* View */,
 				95CFF24124C7ED53000D33D4 /* AppDelegate.swift */,
 				95CFF24324C7ED53000D33D4 /* SceneDelegate.swift */,
-				95CFF24524C7ED53000D33D4 /* ViewController.swift */,
 				95CFF24724C7ED53000D33D4 /* Main.storyboard */,
 				95CFF24A24C7ED58000D33D4 /* Assets.xcassets */,
 				95CFF24C24C7ED58000D33D4 /* LaunchScreen.storyboard */,
 				95CFF24F24C7ED58000D33D4 /* Info.plist */,
 			);
 			path = MatchingAppMemo;
+			sourceTree = "<group>";
+		};
+		95CFF25B24C7F118000D33D4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		95CFF25C24C7F11F000D33D4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				95CFF25E24C7F52F000D33D4 /* Person.swift */,
+				95CFF26024C7F614000D33D4 /* PersonDataSource.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		95CFF25D24C7F12B000D33D4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				95CFF24524C7ED53000D33D4 /* ViewController.swift */,
+				95CFF25724C7F08D000D33D4 /* AddViewController.swift */,
+				95CFF25924C7F0F8000D33D4 /* DetailViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 95CFF25224C7ED58000D33D4 /* Build configuration list for PBXNativeTarget "MatchingAppMemo" */;
 			buildPhases = (
+				754ADBF0232ADE9E0286B26C /* [CP] Check Pods Manifest.lock */,
 				95CFF23A24C7ED53000D33D4 /* Sources */,
 				95CFF23B24C7ED53000D33D4 /* Frameworks */,
 				95CFF23C24C7ED53000D33D4 /* Resources */,
+				957EA70624C93C100095B91E /* Embed Frameworks */,
+				26E00236F01130D29DA63C4D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +217,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		26E00236F01130D29DA63C4D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MatchingAppMemo/Pods-MatchingAppMemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MatchingAppMemo/Pods-MatchingAppMemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MatchingAppMemo/Pods-MatchingAppMemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		754ADBF0232ADE9E0286B26C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MatchingAppMemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		95CFF23A24C7ED53000D33D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95CFF25F24C7F52F000D33D4 /* Person.swift in Sources */,
 				95CFF24624C7ED53000D33D4 /* ViewController.swift in Sources */,
 				95CFF24224C7ED53000D33D4 /* AppDelegate.swift in Sources */,
+				95CFF26124C7F614000D33D4 /* PersonDataSource.swift in Sources */,
+				95CFF25A24C7F0F8000D33D4 /* DetailViewController.swift in Sources */,
+				95CFF25824C7F08D000D33D4 /* AddViewController.swift in Sources */,
 				95CFF24424C7ED53000D33D4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,11 +412,13 @@
 		};
 		95CFF25324C7ED58000D33D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9BD4E453CD17049FB78DD29 /* Pods-MatchingAppMemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7RFPAQ2NAA;
 				INFOPLIST_FILE = MatchingAppMemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,11 +432,13 @@
 		};
 		95CFF25424C7ED58000D33D4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FECAE82DB5AE0D1E9748145 /* Pods-MatchingAppMemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7RFPAQ2NAA;
 				INFOPLIST_FILE = MatchingAppMemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
